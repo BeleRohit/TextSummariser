@@ -1,8 +1,8 @@
-from TextSummariser.src.textSummariser.components.data_ingestion import DataIngestion
-from TextSummariser.src.textSummariser.logging import logger
-from TextSummariser.src.textSummariser.config.configuration import ConfigurationManager
+from src.textSummariser.components.data_ingestion import DataIngestion
+from src.textSummariser.logging import logger
+from src.textSummariser.config.configuration import ConfigurationManager
 
-class DataIngestionPipelineStage1:
+class Stage1DataIngestion:
     def __init__(self):
         pass
 
